@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fin de la Pobreza - Iniciativa de Reciclaje de Ropa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-pattern {
+            background-color: #f0fdf4;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2322c55e' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navegación -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i class="fas fa-hands-holding-circle text-green-600 text-3xl mr-2"></i>
+                    <span class="font-bold text-xl text-green-800">Fin de la Pobreza</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#problema" class="text-gray-600 hover:text-green-600 font-semibold transition">El Problema</a>
+                    <a href="#solucion" class="text-gray-600 hover:text-green-600 font-semibold transition">¿Cómo Funciona?</a>
+                    <a href="#negocio" class="text-gray-600 hover:text-green-600 font-semibold transition">Modelo de Negocio</a>
+                    <a href="#equipo" class="text-gray-600 hover:text-green-600 font-semibold transition">Equipo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-pattern pt-24 pb-16 md:pt-32 md:pb-24 border-b border-green-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                Transformando Ropa en <span class="text-green-600">Oportunidades</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                Una iniciativa solidaria para erradicar la pobreza mediante donaciones inteligentes, voluntariado y apoyo comunitario. Un "negocio redondo" donde todos ganamos.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#solucion" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:-translate-y-1">
+                    <i class="fas fa-qrcode mr-2"></i> Escanear App
+                </a>
+                <a href="#negocio" class="bg-white hover:bg-gray-50 text-green-700 border-2 border-green-600 font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:-translate-y-1">
+                    Conoce el Plan
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problema y ODS -->
+    <section id="problema" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6 border-l-4 border-green-500 pl-4">El Problema y Nuestro Enfoque</h2>
+                    <p class="text-gray-600 mb-4 text-lg leading-relaxed">
+                        En muchas comunidades, la falta de vestimenta adecuada afecta la dignidad y las oportunidades. Abordamos esta necesidad conectando a quienes pueden donar con quienes necesitan apoyo.
+                    </p>
+                    <div class="flex items-center gap-4 mt-8 bg-green-50 p-4 rounded-lg border border-green-100">
+                        <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-01.jpg" alt="ODS 1" class="w-20 h-20 rounded shadow">
+                        <div>
+                            <h3 class="font-bold text-green-800 text-lg">ODS #1: Fin de la Pobreza</h3>
+                            <p class="text-sm text-gray-600">Provisión de recursos básicos y creación de redes de apoyo solidario.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 mt-4 bg-yellow-50 p-4 rounded-lg border border-yellow-100">
+                        <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-12.jpg" alt="ODS 12" class="w-20 h-20 rounded shadow">
+                        <div>
+                            <h3 class="font-bold text-yellow-800 text-lg">ODS #12: Consumo Responsable</h3>
+                            <p class="text-sm text-gray-600">Promovemos el reciclaje de ropa para extender su vida útil.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-2xl p-8 text-center relative overflow-hidden shadow-inner">
+                    <i class="fas fa-smile-beam text-9xl text-yellow-400 opacity-80 drop-shadow-md"></i>
+                    <p class="mt-6 text-xl font-bold text-gray-700 italic">"Devolviendo la sonrisa a nuestra comunidad"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Cómo Funciona? -->
+    <section id="solucion" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12">¿Cómo Funciona?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">1. App y Donativos</h3>
+                    <p class="text-gray-600 text-sm">Escanea nuestro código QR para registrar tus donativos. Clasificamos por <span class="font-semibold text-blue-500">#Color</span>, <span class="font-semibold text-blue-500">#Talla</span> y <span class="font-semibold text-blue-500">#Forma</span>.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">2. Reciclaje y Voluntariado</h3>
+                    <p class="text-gray-600 text-sm">Nuestros voluntarios recolectan, organizan y preparan la ropa para darle una segunda vida digna.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">3. Incentivos</h3>
+                    <p class="text-gray-600 text-sm">Otorgamos cupones y beneficios a los donantes. ¡Un negocio redondo donde todos salen beneficiados!</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">4. Logística y Entrega</h3>
+                    <p class="text-gray-600 text-sm">Con el apoyo del Ayuntamiento, distribuimos las prendas directamente en sitio o a domicilio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modelo de Negocio (Canvas Style) -->
+    <section id="negocio" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center border-b-2 border-gray-100 pb-4">Estructura del Modelo de Negocio</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 bg-gray-50 p-4 rounded-xl">
+                <!-- Socios -->
+                <div class="bg-white p-5 rounded-lg shadow border-t-4 border-blue-500 lg:col-span-1">
+                    <h3 class="font-bold text-gray-800 mb-3"><i class="fas fa-handshake text-blue-500 mr-2"></i>Socios Clave</h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>• Hacienda de Crédito Público (SHCP)</li>
+                        <li>• Secretaría de Desarrollo Integral de la Familia (DIF)</li>
+                        <li>• Comunidades Locales</li>
+                        <li>• Diseñador Web</li>
+                    </ul>
+                </div>
+
+                <!-- Actividades y Recursos -->
+                <div class="flex flex-col gap-4 lg:col-span-1">
+                    <div class="bg-white p-5 rounded-lg shadow border-t-4 border-indigo-500 flex-1">
+                        <h3 class="font-bold text-gray-800 mb-3"><i class="fas fa-tasks text-indigo-500 mr-2"></i>Act. Clave</h3>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Reciclaje de ropa</li>
+                            <li>• Adaptabilidad a necesidades</li>
+                            <li>• Incentivos por donativo</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow border-t-4 border-teal-500 flex-1">
+                        <h3 class="font-bold text-gray-800 mb-3"><i class="fas fa-users-cog text-teal-500 mr-2"></i>Recursos Clave</h3>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Donadores</li>
+                            <li>• Voluntariado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Propuesta de Valor -->
+                <div class="bg-white p-5 rounded-lg shadow border-t-4 border-yellow-500 lg:col-span-1 bg-yellow-50/30">
+                    <h3 class="font-bold text-gray-800 mb-3 text-center"><i class="fas fa-gift text-yellow-500 mr-2"></i>Propuesta de Valor</h3>
+                    <p class="text-sm text-gray-700 text-center italic mb-4">"Negocio redondo: donatarios y donantes se benefician"</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>• Facilidad de ubicaciones</li>
+                        <li>• Entrega en sitio o domicilio</li>
+                    </ul>
+                </div>
+
+                <!-- Relación y Distribución -->
+                <div class="flex flex-col gap-4 lg:col-span-1">
+                    <div class="bg-white p-5 rounded-lg shadow border-t-4 border-pink-500 flex-1">
+                        <h3 class="font-bold text-gray-800 mb-3"><i class="fas fa-heart text-pink-500 mr-2"></i>Relación</h3>
+                        <ul class="text-sm text-gray-600">
+                            <li>• Cara a cara</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow border-t-4 border-orange-500 flex-1">
+                        <h3 class="font-bold text-gray-800 mb-3"><i class="fas fa-route text-orange-500 mr-2"></i>Distribución</h3>
+                        <ul class="text-sm text-gray-600">
+                            <li>• Envío a domicilio</li>
+                            <li>• Sitio</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Segmentos -->
+                <div class="bg-white p-5 rounded-lg shadow border-t-4 border-red-500 lg:col-span-1">
+                    <h3 class="font-bold text-gray-800 mb-3"><i class="fas fa-users text-red-500 mr-2"></i>Segmentos</h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>• Particulares (Usuarios)</li>
+                        <li>• Asociaciones</li>
+                        <li>• Empresas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Finanzas -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div class="bg-white p-6 rounded-lg shadow border-t-4 border-gray-800">
+                    <h3 class="font-bold text-gray-800 mb-4"><i class="fas fa-money-bill-wave text-gray-600 mr-2"></i>Estructura de Costes</h3>
+                    <ul class="text-sm text-gray-600 space-y-3">
+                        <li class="flex justify-between border-b pb-1"><span>Transporte</span> <span class="font-semibold">$2,500/mes ($30,000/anual)</span></li>
+                        <li class="flex justify-between border-b pb-1"><span>Incentivos</span> <span class="font-semibold">$5,000/mes ($60,000/anual)</span></li>
+                        <li class="flex justify-between"><span>Marketing</span> <span class="font-semibold">$1,500 - $2,000/mes ($18,000 - $24,000/anual)</span></li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow border-t-4 border-green-600">
+                    <h3 class="font-bold text-gray-800 mb-4"><i class="fas fa-hand-holding-usd text-green-600 mr-2"></i>Fuentes de Ingresos</h3>
+                    <ul class="text-sm text-gray-600 space-y-3">
+                        <li class="flex justify-between border-b pb-1"><span>Donaciones Mínimas</span> <span class="font-semibold">$5,000</span></li>
+                        <li class="flex flex-col border-b pb-1">
+                            <span class="font-semibold text-gray-800">Celebridades:</span>
+                            <span class="pl-4">• Canelo: $1,000,000</span>
+                            <span class="pl-4">• Maná: $500,000</span>
+                        </li>
+                        <li class="flex justify-between"><span>Corporativos</span> <span class="font-semibold">$150,000 - $500,000</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo -->
+    <section id="equipo" class="py-16 bg-green-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Conoce al Equipo #6</h2>
+            <p class="text-gray-600 mb-8">Las mentes brillantes y corazones solidarios detrás de este proyecto.</p>
+            <div class="bg-white p-8 rounded-2xl shadow-md inline-block text-left w-full max-w-lg mx-auto">
+                <ul class="space-y-4 text-lg text-gray-700">
+                    <li class="flex items-center gap-3"><i class="fas fa-user-circle text-green-500"></i> Juárez Franco Naomi Elizabeth</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-user-circle text-green-500"></i> Densel Mauricio Alfaro Vergara</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-user-circle text-green-500"></i> <span class="font-bold text-green-700">Evolet Alizee Trejo Ornelas</span></li>
+                    <li class="flex items-center gap-3"><i class="fas fa-user-circle text-green-500"></i> Mejía Ramos Diana Elizabeth</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p class="mb-2"><i class="fas fa-hands-holding-circle text-green-400 mr-2"></i> Fin de la Pobreza #1</p>
+        <p class="text-gray-400 text-sm">Proyecto Escolar - Modelo de Negocios. 2023.</p>
+    </footer>
+
+</body>
+</html>
